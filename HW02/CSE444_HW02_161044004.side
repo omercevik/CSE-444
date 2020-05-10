@@ -1,0 +1,355 @@
+{
+  "id": "2266983b-0aec-4c67-b227-20b47c80d4b1",
+  "version": "2.0",
+  "name": "CSE444_HW02_161044004",
+  "url": "https://www.arabam.com/",
+  "tests": [{
+    "id": "cba48533-8e63-4d5d-8947-5001ffe4ac23",
+    "name": "arabam_ford_escort_1997",
+    "commands": [{
+      "id": "7b6570fb-f942-4de7-a62c-6f8eb4b38104",
+      "comment": "Go to arabam.com",
+      "command": "open",
+      "target": "https://www.arabam.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d464cba4-e2b8-40cb-b44f-af2cc368102b",
+      "comment": "Click Otomobil",
+      "command": "click",
+      "target": "css=.category-section > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8263e33-6728-43ca-835f-adb53cd08ef1",
+      "comment": "Click Ford",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[1]/ul[2]/li/ul/li[21]/h2/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c675994e-2617-47b2-b861-944388e14bfb",
+      "comment": "Click Escort",
+      "command": "click",
+      "target": "css=li.category-facet-selection-item:nth-child(4) > div:nth-child(1) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af95200c-f1a6-4fcc-a08c-9828e01302b0",
+      "comment": "Select Yıl 1997 as Min",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[1]/input",
+      "targets": [],
+      "value": "1997"
+    }, {
+      "id": "2f92f931-43df-4e0d-9515-d07ff98188f3",
+      "comment": "Select Yıl 1997 as Max",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[2]/input",
+      "targets": [],
+      "value": "1997"
+    }, {
+      "id": "d11fb658-14c6-4d7c-b0c0-94a92a2a19ee",
+      "comment": "Click Ara",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/button",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3a6d55ff-a344-4ad1-82a0-df1dbf1f5c72",
+    "name": "arabam_ford_escort_1997_gebze",
+    "commands": [{
+      "id": "6ad030f2-ff83-4235-85af-1c2811f6f696",
+      "comment": "Go to arabam.com",
+      "command": "open",
+      "target": "https://www.arabam.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f7986f8-b894-4fb9-90c5-ac956f8e8b43",
+      "comment": "Click Otomobil",
+      "command": "click",
+      "target": "css=.category-section > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9adc800a-cc60-46df-a97e-39dc7063a165",
+      "comment": "Click Ford",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[1]/ul[2]/li/ul/li[21]/h2/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81b974fa-3ca2-4858-840c-a7b4d906e010",
+      "comment": "Click Escort",
+      "command": "click",
+      "target": "css=li.category-facet-selection-item:nth-child(4) > div:nth-child(1) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5f4eb00-c657-4fae-a705-07e7b11c587b",
+      "comment": "Select Yıl 1997 as Min",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[1]/input",
+      "targets": [],
+      "value": "1997"
+    }, {
+      "id": "92365c60-c5cd-42af-9d01-fddc9b3d45e5",
+      "comment": "Select Yıl 1997 as Max",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[2]/input",
+      "targets": [],
+      "value": "1997"
+    }, {
+      "id": "439ea8e2-3f88-4b1f-a80a-9e919d4a39c2",
+      "comment": "Select İl",
+      "command": "click",
+      "target": "css=#il > div:nth-child(2) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6b3c149-d4f7-4160-8089-c1719a335370",
+      "comment": "Write Kocaeli",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/div/input",
+      "targets": [],
+      "value": "Kocaeli"
+    }, {
+      "id": "63aaf5fe-039f-4662-a56d-4c95f074d7dd",
+      "comment": "Select Kocaeli",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/ul/li/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3faa2ef-21eb-4846-a690-f45db5e9e6bc",
+      "comment": "Close İl Pop-up",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/a/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fd2cb26-c011-49a8-a24e-77486591b738",
+      "comment": "Select İlçe",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dfd73eb-0673-465c-b6bf-23bf8c7609f8",
+      "comment": "Write Gebze",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/div/input",
+      "targets": [],
+      "value": "Gebze"
+    }, {
+      "id": "e6bc0749-0993-4ad7-9813-618c4f3cf853",
+      "comment": "Select Gebze",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/ul/li/ul/li/label/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e953c18-ba44-499f-bc55-4db0e42082b6",
+      "comment": "Close İlçe Pop-up",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/a/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "977844aa-4cd2-4657-96fa-f96da9e218a6",
+      "comment": "Click Ara",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[3]/input",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d1ad82c-9590-47c9-8810-79ce17cba9ba",
+    "name": "arabam_volkswagen_golf_2001_automatic",
+    "commands": [{
+      "id": "1c79ce8a-89bd-404b-90a6-6f0f892723df",
+      "comment": "Go to arabam.com",
+      "command": "open",
+      "target": "https://www.arabam.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d378124-ab23-431d-8c01-965166630b58",
+      "comment": "Click Otomobil",
+      "command": "click",
+      "target": "css=.category-section > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13d0b447-cde6-4f39-abfe-b9778d383c14",
+      "comment": "Click Volkswagen",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[1]/ul[2]/li/ul/li[65]/h2/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7edbaaf-1793-46a9-8f09-9466996cce44",
+      "comment": "Click Golf",
+      "command": "click",
+      "target": "css=li.category-facet-selection-item:nth-child(4) > div:nth-child(1) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5da8e42d-988e-46bc-8953-cf25dbc091a1",
+      "comment": "Select Yıl 2001 as Min",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[1]/input",
+      "targets": [],
+      "value": "2001"
+    }, {
+      "id": "4d12a059-c6ce-462a-8302-41817bbf9129",
+      "comment": "Select Yıl 2001 as Max",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[2]/input",
+      "targets": [],
+      "value": "2001"
+    }, {
+      "id": "434c0286-29fc-4b85-9d69-6d394ca8e0b5",
+      "comment": "Select Otomatik",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[4]/div[2]/ul/li[2]/label/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94244f9d-e1cd-4cd2-841d-de808e828334",
+      "comment": "Click Ara",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/button",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "48a011dd-6b5e-41c3-975d-eb2aaa241013",
+    "name": "arabam_volkswagen_golf_2001_automatic_gebze",
+    "commands": [{
+      "id": "6a6ffe33-7cf2-45e1-8289-14bfce62d06d",
+      "comment": "Go to arabam.com",
+      "command": "open",
+      "target": "https://www.arabam.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "300d2e9e-5638-4794-8ee1-739d588bbfdc",
+      "comment": "Click Otomobil",
+      "command": "click",
+      "target": "css=.category-section > li:nth-child(2) > a:nth-child(1) > span:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5cd6678-fff2-4de5-87e9-fcee637dd94c",
+      "comment": "Click Volkswagen",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[1]/ul[2]/li/ul/li[65]/h2/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90e510f-6d1d-45ba-b1a4-8e56da2ae930",
+      "comment": "Click Golf",
+      "command": "click",
+      "target": "css=li.category-facet-selection-item:nth-child(4) > div:nth-child(1) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31117925-e863-4bdb-b879-2a41c33f113f",
+      "comment": "Select Yıl 2001 as Min",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[1]/input",
+      "targets": [],
+      "value": "2001"
+    }, {
+      "id": "27c8ed87-6ebf-4cfb-8ad5-55deb1c8c5dd",
+      "comment": "Select Yıl 2001 as Max",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/div[2]/input",
+      "targets": [],
+      "value": "2001"
+    }, {
+      "id": "e9122652-dcd4-4f6f-9141-65925d670674",
+      "comment": "Select İl",
+      "command": "click",
+      "target": "css=#il > div:nth-child(2) > a:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab29c60e-e22a-4e9e-9885-13a6978e8b43",
+      "comment": "Write Kocaeli",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/div/input",
+      "targets": [],
+      "value": "Kocaeli"
+    }, {
+      "id": "d8d4bbe6-f0a5-4794-8007-f026382a7236",
+      "comment": "Select Kocaeli",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/ul/li/label/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b0b76b8-106f-4f5a-881e-1535aadabf4e",
+      "comment": "Close İl Pop-up",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[2]/div/a/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18def311-5e71-46cc-9c59-a2963b6e04cf",
+      "comment": "Select İlçe",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6232401-b6c1-406b-92aa-050e86c3285b",
+      "comment": "Write Gebze",
+      "command": "sendKeys",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/div/input",
+      "targets": [],
+      "value": "Gebze"
+    }, {
+      "id": "b176009a-c0e7-4bd9-ba40-6a6a3d7c0bfc",
+      "comment": "Select Gebze",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/ul/li/ul/li/label/span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23c53f08-840d-4a42-9305-b7c3973596b5",
+      "comment": "Close İlçe Pop-up",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[2]/div[3]/div/a/i",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3c7e63b-6bbe-47ce-aa87-375e63f7ab74",
+      "comment": "Select Otomatik",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[4]/div[2]/ul/li[2]/label/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c97767a2-9b7a-484c-9fdc-ebe8b019d81c",
+      "comment": "Click Ara",
+      "command": "click",
+      "target": "xpath=//html/body/div[3]/div[6]/div[4]/div/div[1]/form/div[2]/div[3]/div[2]/div/div/button",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "78060a04-8ca8-4667-85c4-c5b5e8f837f5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.arabam.com/"],
+  "plugins": []
+}
